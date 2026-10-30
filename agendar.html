@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTech - Agendar Manutenção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="logo1.png" alt="NewTech Logo" class="logo-img">
+                <div class="logo-textos">
+                    <h1>New<span>Tech</span></h1>
+                    <p class="slogan">Tecnologia que mantém tudo funcionando</p>
+                    <p class="subtitulo-sistema">Sistema de Gestão de Manutenção de Equipamentos</p>
+                    <p class="autores">Fernanda Zani - Rafaela Donatoni - Brendha Cardoso</p>
+                </div>
+            </div>
+            <div class="user-info">Olá, usuário</div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="principal.html">Início</a>
+            <a href="busca.html">Busca</a>
+            <a href="equipamentos.html">Equipamentos</a>
+            <a href="cadastrar.html">Cadastrar</a>
+            <a href="agendar.html">Agendar</a>
+            <a href="notificacoes.html">Notificações</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="calendario.png" alt="Calendário" class="imagem-calendario">
+        <div class="form-box">
+            <h2>Agendar Manutenção</h2>
+            <br>
+
+            <label>Técnico</label>
+            <select>
+                <option>Selecione o técnico</option>
+                <option>Carlos Henrique - Mecânica Industrial</option>
+                <option>João Pedro - Eletrotécnica</option>
+                <option>Marcos Vinícius - Soldagem</option>
+                <option>Rafael Oliveira - Manutenção de Máquinas</option>
+                <option>André Luiz - Automação Industrial</option>
+                <option>Felipe Santos - Manufatura e Impressão 3D</option>
+            </select>
+
+            <label>Equipamento</label>
+            <select>
+                <option>Selecione o equipamento</option>
+                <option>Torno CNC 02</option>
+                <option>Furadeira de Bancada 01</option>
+                <option>Compressor de Ar 01</option>
+                <option>Máquina de Solda 01</option>
+                <option>Fresadora 01</option>
+                <option>Impressora 3D</option>
+                <option>Torno Mecânico 01</option>
+                <option>Serra de Fita 01</option>
+                <option>Prensa Hidráulica 01</option>
+                <option>Retífica 01</option>
+            </select>
+
+            <label>Data</label>
+            <input type="date">
+
+            <label>Horário</label>
+            <input type="time">
+
+            <label>Duração</label>
+            <input type="text" placeholder="ex: 02:00 horas">
+
+            <br>
+            <a href="principal.html" class="btn-full">Agendar</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

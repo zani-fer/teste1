@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTech - Cadastrar Equipamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header>
+    <div class="header-top">
+        <div class="logo-container">
+            <img src="logo1.png" alt="NewTech Logo" class="logo-img">
+            <div class="logo-textos">
+                <h1>New<span>Tech</span></h1>
+                <p class="slogan">Tecnologia que mantém tudo funcionando</p>
+                <p class="subtitulo-sistema">Sistema de Gestão de Manutenção de Equipamentos</p>
+                <p class="autores">Fernanda Zani - Rafaela Donatoni - Brendha Cardoso</p>
+            </div>
+        </div>
+        <div class="user-info">Olá, usuário</div>
+    </div>
+    
+    <nav class="main-nav">
+        <a href="principal.html">Início</a>
+        <a href="busca.html">Busca</a>
+        <a href="equipamentos.html">Equipamentos</a>
+        <a href="cadastrar.html">Cadastrar</a>
+        <a href="agendar.html">Agendar</a>
+        <a href="notificacoes.html">Notificações</a>
+    </nav>
+</header>
+
+    <div class="container">
+        <div class="form-box">
+            <h2>Cadastrar Equipamento</h2>
+            <br>
+            
+            <label>Nome do equipamento</label>
+            <input type="text" placeholder="Digite o nome">
+
+            <label>Número de patrimônio / série</label>
+            <input type="text" placeholder="Digite o número">
+
+            <label>Local de origem</label>
+            <select>
+                <option>Selecione o local</option>
+                <option>Lab. Manufatura</option>
+                <option>Oficina Mecânica</option>
+                <option>Lab. Informática</option>
+                <option>Lab. Elética</option>
+                <option>Oficina Pneumática</option>
+            </select>
+
+            <label>Categoria</label>
+            <select>
+                <option>Selecione a categoria</option>
+                <option>Mecânica</option>
+                <option>Usinagem</option>
+                <option>Informática</option>
+                <option>Elétrica</option>
+                <option>Eletrônica</option>
+                <option>Pneumática</option>
+                <option>Periféricos</option>
+            </select>
+
+            <label>Descrição</label>
+            <textarea placeholder="Digite a descrição..."></textarea>
+
+            <br><br>
+            <a href="equipamentos.html" class="btn-cancelar">Cancelar</a>
+            <a href="equipamentos.html" class="btn">Cadastrar</a>
+        </div>
+    </div>
+
+</body>
+</html>
